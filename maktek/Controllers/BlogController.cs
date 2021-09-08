@@ -11,6 +11,7 @@ namespace maktek.Controllers
         // GET: Blog
         public ActionResult Index()
         {
+            ViewBag.Title = "Aksa | Haberler";
             return View();
         }
     }
