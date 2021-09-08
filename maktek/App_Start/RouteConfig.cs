@@ -14,6 +14,16 @@ namespace maktek
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
+               name: "Blog",
+               url: "haberler",
+               defaults: new { controller = "Blog", action = "Index" }
+           );
+
+
+            
+            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+            routes.MapRoute(
                name: "About",
                url: "hakkimizda",
                defaults: new { controller = "About", action = "Index" }

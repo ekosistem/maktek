@@ -40,6 +40,7 @@ namespace maktek.Controllers
 
         public ActionResult Blog()
         {
+            ViewBag.title = "AKSA || HABERLER";
             return View();
         }
     }
