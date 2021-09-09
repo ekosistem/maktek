@@ -14,5 +14,26 @@ namespace maktek.Controllers
             ViewBag.Title = "Aksa | Haberler";
             return View();
         }
+
+        public ActionResult Category()
+        {
+            return View();
+        }
+
+        public ActionResult Populer()
+        {
+            return View();
+        }
+
+
+        public ActionResult Tag()
+        {
+            return View();
+        }
+
+        public ActionResult Detail()
+        {
+            return View();
+        }
     }
 }
